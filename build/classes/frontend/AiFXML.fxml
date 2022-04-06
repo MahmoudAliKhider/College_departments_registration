@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="Aisub_id" prefHeight="263.0" prefWidth="392.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx_Controler.AiSudject">
+   <children>
+      <RadioButton fx:id="Kai_id" layoutX="106.0" layoutY="48.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="180.0" selected="true" text="Knolage Based System">
+         <toggleGroup>
+            <ToggleGroup fx:id="t" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="Mai_id" layoutX="106.0" layoutY="76.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="180.0" text="Machine Learning" toggleGroup="$t" />
+      <RadioButton fx:id="Nai_id" layoutX="106.0" layoutY="104.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="180.0" text="Natural Language" toggleGroup="$t" />
+      <RadioButton fx:id="Aai_id" layoutX="106.0" layoutY="132.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="180.0" text="Advanced AI" toggleGroup="$t" />
+      <RadioButton fx:id="Rai_id" layoutX="106.0" layoutY="160.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="180.0" text="Robotics" />
+      <Button layoutX="157.0" layoutY="207.0" mnemonicParsing="false" onAction="#DBAction" prefHeight="18.0" prefWidth="77.0" text="tack" />
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backAction" text="back" />
+   </children>
+</AnchorPane>

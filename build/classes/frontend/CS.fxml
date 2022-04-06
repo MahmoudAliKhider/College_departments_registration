@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="Subject" prefHeight="403.0" prefWidth="637.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx_Controler.cs_controler">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Text layoutX="242.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LEVEL ONE" wrappingWidth="283.13671875">
+         <font>
+            <Font name="Arial Bold Italic" size="14.0" />
+         </font>
+      </Text>
+      <RadioButton fx:id="Ai_id" layoutX="118.0" layoutY="140.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="180.0" text="C++">
+         <toggleGroup>
+            <ToggleGroup fx:id="tg_g" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="sof_2" layoutX="120.0" layoutY="196.0" mnemonicParsing="false" text="Introduction">
+         <toggleGroup>
+            <ToggleGroup fx:id="so" />
+         </toggleGroup></RadioButton>
+      <RadioButton layoutX="123.0" layoutY="266.0" mnemonicParsing="false" text="Discreat">
+         <toggleGroup>
+            <ToggleGroup fx:id="so3" />
+         </toggleGroup></RadioButton>
+      <RadioButton layoutX="375.0" layoutY="139.0" mnemonicParsing="false" text="Math 1">
+         <toggleGroup>
+            <ToggleGroup fx:id="fx" />
+         </toggleGroup></RadioButton>
+      <RadioButton layoutX="377.0" layoutY="190.0" mnemonicParsing="false" text="Phisics" />
+      <RadioButton layoutX="374.0" layoutY="258.0" mnemonicParsing="false" text="English">
+         <toggleGroup>
+            <ToggleGroup fx:id="kk" />
+         </toggleGroup></RadioButton>
+      <Button layoutX="164.0" layoutY="332.0" mnemonicParsing="false" onAction="#javaAction" prefHeight="28.0" prefWidth="266.0" text="Level one s_2" />
+    </children>
+</AnchorPane>

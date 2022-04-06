@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" fx:id="Digit_id" prefHeight="194.0" prefWidth="240.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17" fx:controller="It_java.Digital_Si">
+   <children>
+      <Button layoutY="1.0" mnemonicParsing="false" onAction="#back_Action" text="back" />
+      <RadioButton layoutX="41.0" layoutY="56.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="137.0" text="Speech Recognition">
+         <toggleGroup>
+            <ToggleGroup fx:id="D1" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton layoutX="41.0" layoutY="94.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="118.0" text="Image Processing" toggleGroup="$D1" />
+      <Button layoutX="81.0" layoutY="154.0" mnemonicParsing="false" onAction="#DB_Action" text="Button" />
+   </children>
+</AnchorPane>
